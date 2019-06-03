@@ -1,0 +1,2 @@
+html .cke_reset_all .cke_dialog_body{background-color:#f5f5f2;border-radius:5px;}
+html.js .webform-select-other .webform-select-other-input,html.js .webform-checkboxes-other .webform-checkboxes-other-input,html.js .webform-radios-other .webform-radios-other-input,html.js .webform-buttons-other .webform-buttons-other-input{display:none;}
