@@ -169,23 +169,23 @@
       </div>
     {% endif %}
     <footer class="site-footer">
-      {% block footer %}
-        <div class="{{ container }}">
-          {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-            <div class="site-footer__top clearfix">
-              {{ page.footer_first }}
-              {{ page.footer_second }}
-              {{ page.footer_third }}
-              {{ page.footer_fourth }}
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="text-center">
+              <h5></h5>
+              <p>Ponte en contacto</p>
+              <a href="mailto:test@gmail.com">test@gmail.com</a>
+              <ul>
+                <li><a><img src="/{{ directory }}/img/facebook.png"></a></li>
+                <li><a><img src="/{{ directory }}/img/instagram.png"></a></li>
+                <li><a><img src="/{{ directory }}/img/twitter.png"></a></li>
+              </ul>
             </div>
-          {% endif %}
-          {% if page.footer_fifth %}
-            <div class="site-footer__bottom">
-              {{ page.footer_fifth }}
-            </div>
-          {% endif %}
+          </div>
         </div>
-      {% endblock %}
+      </div>
+
     </footer>
   </div>
 </div>

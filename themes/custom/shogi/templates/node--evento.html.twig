@@ -74,9 +74,13 @@
     </div>
     <div class="event-desc">
       <div class="event-info">
-        <span>{{ 'Fecha' | t}}: {{ content.field_fecha.value | date("d-m-Y") }}</span>
-        <span>{{ 'Lugar' | t}}: {{ node.field_lugar.value }} </span>
-        <span>{{ 'Precio' | t}}: {{ node.field_precio.value }}</span>
+        <span><i class="material-icons">insert_invitation</i> {{ content.field_fecha.value | date("d-m-Y") }}</span>
+        <span><i class="material-icons">place</i>{{ node.field_lugar.value }} </span>
+        <span><i class="material-icons">monetization_on</i> {{ node.field_precio.value }}</span>
+
+        {#<span>{{ 'Fecha' | t}}: {{ content.field_fecha.value | date("d-m-Y") }}</span>#}
+        {#<span>{{ 'Lugar' | t}}: {{ node.field_lugar.value }} </span>#}
+        {#<span>{{ 'Precio' | t}}: {{ node.field_precio.value }}</span>#}
       </div>
       <div class="event-text">
         <p> {{ node.body.value }} </p>

@@ -18,6 +18,30 @@ li.dropdown:hover ul.dropdown-menu{
   display: block;
 }
 
+/* menu mobil*/
+
+.navbar-toggler-icon{
+  background-image: url("../img/menu.png");
+}
+
+/*  footer*/
+
+.site-footer ul{
+  list-style-type: none;
+}
+
+.site-footer li{
+  display: inline;
+}
+
+.site-footer li a {
+  display: inline-block;
+  padding: 14px 16px;
+
+}
+.site-footer li a img{
+  width: 90%;
+}
 
 /** PAG EVENTO*/
 .event{
@@ -146,5 +170,12 @@ li.dropdown:hover ul.dropdown-menu{
   transform: translateY(20px);
   opacity: 0;
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* contact*/
+
+.mapa iframe{
+  width: 100%;
+  height: 300px;
 }
 
