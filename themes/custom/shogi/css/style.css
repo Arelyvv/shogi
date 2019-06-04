@@ -14,6 +14,11 @@
   flex-direction: column;
 }
 
+li.dropdown:hover ul.dropdown-menu{
+  display: block;
+}
+
+
 /** PAG EVENTO*/
 .event{
   margin-top: 25px;
