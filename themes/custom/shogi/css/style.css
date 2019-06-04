@@ -4,20 +4,41 @@
  */
 
 /* menu principal*/
+#CollapsingNavbar{
+  width: 100%;
+  background-color: #c29353;
+}
 .logo .navbar-brand{
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
   font-size: 35px;
 }
+#block-shogi-main-menu{
+  margin: auto;
+}
+
+#block-shogi-main-menu > ul > li > a{
+  color: white;
+}
+
 #navbar-main{
   flex-direction: column;
+  padding: .5rem 0rem;
 }
 
 li.dropdown:hover ul.dropdown-menu{
   display: block;
 }
 
+
+.front-img{
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-position-y: bottom;
+}
 /* menu mobil*/
 
 .navbar-toggler-icon{

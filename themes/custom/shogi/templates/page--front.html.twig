@@ -131,6 +131,8 @@
       {% endblock %}
     {% endif %}
     <div id="main-wrapper" class="layout-main-wrapper clearfix">
+      <div class="front-img" style="background-image: url(/{{ directory }}/img/portada.svg)">
+      </div>
       {% block content %}
         <div id="main" class="{{ container }}">
           {{ page.breadcrumb }}
