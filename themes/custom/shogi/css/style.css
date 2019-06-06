@@ -24,7 +24,7 @@
 
 #navbar-main{
   flex-direction: column;
-  padding: .5rem 0rem;
+  padding: .5rem 0rem 0rem 0rem;
 }
 
 li.dropdown:hover ul.dropdown-menu{
